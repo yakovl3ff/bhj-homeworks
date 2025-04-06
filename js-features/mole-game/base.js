@@ -1,6 +1,6 @@
 (() => {
   let playing = true,
-    activeHole = 1;
+    activeHole = Math.floor( 1 + Math.random() * 9 );
 
   const stop = () => playing = true,
     getHole = index => document.getElementById(`hole${index}`),
