@@ -36,3 +36,7 @@
   background-color: brown;
   cursor: pointer;
 }
+
+.hole:active {
+  scale: 0.5;
+}
